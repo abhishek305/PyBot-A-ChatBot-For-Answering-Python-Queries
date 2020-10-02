@@ -251,22 +251,7 @@ class ChatInterface(Frame):
         self.tl_bg = "#4f4f4f"
         self.tl_bg2 = "#444444"
         self.tl_fg = "#ffffff"
-
-
-    def color_theme_turquoise(self):
-        self.master.config(bg="#003333")
-        self.text_frame.config(bg="#003333")
-        self.text_box.config(bg="#669999", fg="#FFFFFF")
-        self.entry_frame.config(bg="#003333")
-        self.entry_field.config(bg="#669999", fg="#FFFFFF", insertbackground="#FFFFFF")
-        self.send_button_frame.config(bg="#003333")
-        self.send_button.config(bg="#669999", fg="#FFFFFF", activebackground="#669999", activeforeground="#FFFFFF")
-        #self.emoji_button.config(bg="#669999", fg="#FFFFFF", activebackground="#669999", activeforeground="#FFFFFF")
-        self.sent_label.config(bg="#003333", fg="#FFFFFF")
-
-        self.tl_bg = "#669999"
-        self.tl_bg2 = "#003333"
-        self.tl_fg = "#FFFFFF"    
+        
 
     # Blue
     def color_theme_dark_blue(self):
